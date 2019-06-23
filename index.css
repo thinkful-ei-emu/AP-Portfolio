@@ -8,18 +8,12 @@
 
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
     font-size: 20px;
-    color: #444;
+    color: black;
     text-align: center;
     line-height: 1.5;
-  }
-  
-
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
+    background-color: #f2f2f2;
+    ;
   }
   
   nav {
@@ -27,36 +21,151 @@
     top: 0;
     left: 0;
     right: 0;
+    font-family: 'Pacifico', cursive;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    height: 62px;
   }
 
  nav li{
      list-style-type: none;
-     display: inline-block;  
-     padding: 10px; 
+     width: 33.33%;
+     float: left;
+     padding: 10px;
  }
+  
 
- .nav-contact{
-   margin-left: -10px;
- }
-  
-  
-  header {
-    padding: 12% 0;
-  }
-  
   section {
     min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
+    padding: 1% 0;
+    /* background-color: #bbb; */
   }
   
-  section:nth-child(even) {
-    background-color: #ddd;
+   .projects, .about{
+      margin-top: 10px;
+    }
+
+    .about h2{
+      padding-top: 20px;
+        }
+
+    
+  .footer {
+    padding: 1% 0;
+    background-color: black;
+    color: #f2f2f2;
+    font-family: 'Pacifico', cursive;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+  .about p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+  }
+
+  .project-title{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    font-size: 24px;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 20px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+
+  }
+
+  .project-description{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
   }
   
 
-  .footer, .projects, .about{
-      margin-top: 10px;
+  .headline{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 36px;
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 40px;
+  
   }
+
+  .quiz-app-image{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .hero-image{
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  a{
+    color: #f2f2f2;
+  }
+
+  .footer a{
+    padding: 10px;
+  }
+
+  .footer a:link {
+    text-decoration: none;
+  }
+  
+  .footer a:visited {
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer a:active {
+    text-decoration: underline;
+  }
+
+  .jumper{
+    color: #f2f2f2;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-family: 'Pacifico', cursive;
+    margin-top: 55px;
+  }
+
+  .projects a{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 16px;
+  }
+
 
   }
