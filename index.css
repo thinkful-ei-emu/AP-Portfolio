@@ -13,7 +13,6 @@
     text-align: center;
     line-height: 1.5;
     background-color: #f2f2f2;
-    ;
   }
   
   nav {
@@ -26,6 +25,7 @@
     width: 100%;
     overflow: hidden;
     height: 62px;
+    z-index: 1;
   }
 
  nav li{
@@ -93,8 +93,10 @@
     line-height: 30px;
     font-size: 24px;
     max-width: 450px;
-    margin: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
   font-family: 'Ubuntu Condensed', sans-serif;
 
   }
@@ -176,6 +178,54 @@
     font-family: 'Pacifico', cursive;
     color: black;
     font-size: 16px;
+  }
+
+  .rmhSlides, .srSlides{
+    display: none;
+  }
+
+  img {
+    vertical-align: middle;
+    width: 320px;
+    z-index: -1;
+    position: relative;
+    height: 320px;
+  }
+
+  .slideshow-container{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
   }
 
 
