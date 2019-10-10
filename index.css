@@ -4,229 +4,273 @@
 
 /* mobile + tablet */
 
-  @media only screen and (min-width: 320px) and (max-width: 1600px){
+body {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Pacifico', cursive;
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  height: 62px;
+  z-index: 1;
+}
+
+nav li{
+   list-style-type: none;
+   width: 33.33%;
+   float: left;
+}
+
+.nav-about{
+ padding-right: 50px;
+}
+
+.nav-projects{
+ padding-right: 40px;
+}
+
+.nav-contact{
+ padding-right: 20px;
+}
+
+
+section {
+  min-height: 200px;
+  padding: 1% 0;
+  /* background-color: #bbb; */
+}
+
+ .projects, .about{
+    margin-top: -40px;
+  }
+
+  .about h2{
+    padding-top: 20px;
+      }
 
   
-  body {
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    line-height: 1.5;
-    background-color: #f2f2f2;
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    font-family: 'Pacifico', cursive;
-    background-color: black;
-    width: 100%;
-    overflow: hidden;
-    height: 62px;
-    z-index: 1;
-  }
-
- nav li{
-     list-style-type: none;
-     width: 33.33%;
-     float: left;
- }
-
- .nav-about{
-   padding-right: 50px;
- }
-
- .nav-projects{
-   padding-right: 40px;
- }
-
- .nav-contact{
-   padding-right: 20px;
- }
-  
-
-  section {
-    min-height: 200px;
-    padding: 1% 0;
-    /* background-color: #bbb; */
-  }
-  
-   .projects, .about{
-      margin-top: -40px;
-    }
-
-    .about h2{
-      padding-top: 20px;
-        }
-
-    
-  .footer {
-    padding: 1% 0;
-    background-color: black;
-    color: #f2f2f2;
-    font-family: 'Pacifico', cursive;
-    margin-top: 30px;
-    font-size: 16px;
-    text-align: center;
-  }
+.footer {
+  padding: 1% 0;
+  background-color: black;
+  color: #f2f2f2;
+  font-family: 'Pacifico', cursive;
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
 
 
-  .about p{
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 20px;
-    font-size: 16px;
-    max-width: 450px;
-    margin: auto;
-    margin-bottom: 20px;
-    font-family: 'Ubuntu Condensed', sans-serif;
-
-  }
-
-  .project-title{
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 30px;
-    font-size: 24px;
-    max-width: 450px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
+.about p{
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  max-width: 450px;
+  margin: auto;
+  margin-bottom: 20px;
   font-family: 'Ubuntu Condensed', sans-serif;
 
-  }
+}
 
-  .project-description{
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 20px;
-    font-size: 16px;
-    max-width: 450px;
-    margin: auto;
-    margin-bottom: 20px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+.project-title{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 30px;
+  font-size: 24px;
+  max-width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+font-family: 'Ubuntu Condensed', sans-serif;
 
-  }
-  
+}
 
-  .headline{
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 36px;
-    font-size: 24px;
-    margin: auto;
-    margin-bottom: 10px;
-    font-family: 'Pacifico', cursive;
-    margin-top: 40px;
-  
-  }
+.project-description{
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  max-width: 450px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: 'Ubuntu Condensed', sans-serif;
 
-  .quiz-app-image{
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  .hero-image{
-    max-width: 300px;
-    height: auto;
-    border-radius: 50%;
-  }
-
-  a{
-    color: #f2f2f2;
-  }
-
-  .footer a{
-    padding: 10px;
-  }
-
-  .footer a:link {
-    text-decoration: none;
-  }
-  
-  .footer a:visited {
-    text-decoration: none;
-  }
-  
-  .footer a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer a:active {
-    text-decoration: underline;
-  }
-
-  .jumper{
-    color: #f2f2f2;
-    font-size: 16px;
-  }
-
-  h2 {
-    font-family: 'Pacifico', cursive;
-    margin-top: 55px;
-  }
-
-  .projects a{
-    font-family: 'Pacifico', cursive;
-    color: black;
-    font-size: 16px;
-  }
-
-  .rmhSlides, .srSlides{
-    display: none;
-  }
-
-  img {
-    vertical-align: middle;
-    width: 320px;
-    z-index: -1;
-    position: relative;
-    height: 320px;
-  }
-
-  .slideshow-container{
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    width: 320px;
-    height: 320px;
-  }
-
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
-  .prev:hover, .next:hover {
-    background-color: #f1f1f1;
-    color: black;
-  }
+}
 
 
+.headline{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 36px;
+  font-size: 24px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive;
+  margin-top: 40px;
+
+}
+
+.quiz-app-image{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hero-image{
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+a{
+  color: #f2f2f2;
+}
+
+.footer a{
+  padding: 10px;
+}
+
+.footer a:link {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer a:active {
+  text-decoration: underline;
+}
+
+.jumper{
+  color: #f2f2f2;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  margin-top: 55px;
+}
+
+.projects a{
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size: 16px;
+}
+
+.rmhSlides, .srSlides{
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+  width: 320px;
+  z-index: -1;
+  position: relative;
+  height: 200px;
+}
+
+.slideshow-container{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  /* margin-left: -152px; */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+  @media only screen and (min-width: 700px){
+
+    img {
+      vertical-align: middle;
+      width: 700px;
+      z-index: -1;
+      position: relative;
+      height: 400px;
+    }
+    
+    .slideshow-container{
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      width: auto;
+      height: auto;
+    }
   }
+
+  /* @media only screen and (min-width: 1000px){
+    img {
+      vertical-align: middle;
+      width: 1000px;
+      z-index: -1;
+      position: relative;
+      height: 1000px;
+    }
+    
+    .slideshow-container{
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      width: auto;
+      height: auto;
+    }
+  } */
