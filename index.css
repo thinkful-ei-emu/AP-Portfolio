@@ -47,7 +47,6 @@ nav li{
 section {
   min-height: 200px;
   padding: 1% 0;
-  /* background-color: #bbb; */
 }
 
  .projects, .about{
@@ -105,8 +104,10 @@ font-family: 'Ubuntu Condensed', sans-serif;
   line-height: 20px;
   font-size: 16px;
   max-width: 450px;
-  margin: auto;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Ubuntu Condensed', sans-serif;
 
 }
@@ -123,12 +124,6 @@ font-family: 'Ubuntu Condensed', sans-serif;
   font-family: 'Pacifico', cursive;
   margin-top: 40px;
 
-}
-
-.quiz-app-image{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
 }
 
 .hero-image{
@@ -177,8 +172,10 @@ h2 {
   font-size: 16px;
 }
 
-.rmhSlides, .srSlides{
+.rmhSlides, .srSlides, .carSlides{
   display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -207,7 +204,6 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  /* margin-left: -152px; */
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -216,19 +212,21 @@ img {
   user-select: none;
 }
 
-.next {
-  right: 5%;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev{
-  left: 5%;
-  border-radius: 3px 0 0 3px;
-}
-
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 700px){
+  .next {
+    right: 7px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev{
+    left: 7px;
+    border-radius: 3px 0 0 3px;
+  }
 }
 
 
@@ -249,28 +247,17 @@ img {
       margin-left: auto;
       margin-right: auto;
       overflow: hidden;
-      width: auto;
-      height: auto;
+      width: 700px;
+      height: 400px;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+  
+    .prev{
+      left: 0;
+      border-radius: 3px 0 0 3px;
     }
   }
-
-  /* @media only screen and (min-width: 1000px){
-    img {
-      vertical-align: middle;
-      width: 1000px;
-      z-index: -1;
-      position: relative;
-      height: 1000px;
-    }
-    
-    .slideshow-container{
-      position: relative;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: auto;
-      margin-right: auto;
-      overflow: hidden;
-      width: auto;
-      height: auto;
-    }
-  } */
