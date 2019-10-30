@@ -1,4 +1,3 @@
-//will need autoscroll fxn and tags and marking
 
 $(".jumper").on("click", function(event) {
     
